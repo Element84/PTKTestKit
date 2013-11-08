@@ -92,15 +92,19 @@ file used in the previous example looks like this:
 ]
 ```
 
+## Limitations
+
+Since outline test names are dynamically generated, there is no suppport for running an individual outline test and example via Xcode 5's test navigator.
+
 ## TODO
 
-[ ] Clean up repository (examples mixed in with source code)
-[ ] Create Podspec
-[ ] Provide better inline documentation
-[ ] Dynamically extend XCTestKit
-[ ] Add support for enabling/disabling examples in PTKTestCase
-[ ] Add copyright headers
-[ ] Better exception handling/reporting
+- [ ] Clean up repository (examples mixed in with source code)
+- [ ] Create Podspec
+- [ ] Provide better inline documentation
+- [ ] Dynamically extend XCTestKit
+- [ ] Add support for enabling/disabling examples in PTKTestCase
+- [ ] Add copyright headers
+- [ ] Better exception handling/reporting
 
 ## License
 
@@ -108,7 +112,6 @@ PTKTestKit is licensed under the terms of the [Apache License, version 2.0](http
 
 ## Credits
 
-PTKTestKit is brought to you by [Paul Pilone](http://twitter.com/paulpilone).
+PTKTestKit is brought to you by [Paul Pilone](http://twitter.com/paulpilone). Support is provided by [Element 84](http://www.element84.com).
 
-Support is provided by [Element 84](http://www.element84.com).
-
+This solution was largely based on Brian Coyner's [OCUnit Parameterized Test Case](http://briancoyner.github.io/blog/2011/09/12/ocunit-parameterized-test-case/) example.
