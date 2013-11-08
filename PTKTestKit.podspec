@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'PTKTestKit'
-  s.version               = '0.0.1'
+  s.version               = '1.0.0'
   s.summary               = 'Various classes built to make iOS testing faster, easier, and more effective.'
   s.homepage              = 'https://github.com/Element84/PTKTestKit'
   s.authors               = { 'Paul Pilone' => 'paul@element84.com' }
