@@ -7,220 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B927E09FD1824500A043E368 /* libPods-ocunitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D236E060741E4278A6E9D2DA /* libPods-ocunitTests.a */; };
-		DA760C1A182C174E00B73F87 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA760C19182C174E00B73F87 /* SenTestingKit.framework */; };
-		DA760C1B182C174E00B73F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C295182ADE6C0059C102 /* Foundation.framework */; };
-		DA760C1C182C174E00B73F87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C299182ADE6C0059C102 /* UIKit.framework */; };
-		DA760C22182C174E00B73F87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA760C20182C174E00B73F87 /* InfoPlist.strings */; };
-		DA760C2D182C189700B73F87 /* PTKTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA760C2C182C189700B73F87 /* PTKTestCase.m */; };
-		DA760C2F182C18D800B73F87 /* sample-data.json in Resources */ = {isa = PBXBuildFile; fileRef = DA760C2E182C18D800B73F87 /* sample-data.json */; };
-		DA760C32182C262300B73F87 /* PTKOutlineExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DA760C31182C262300B73F87 /* PTKOutlineExample.m */; };
-		DA760C35182C2C0900B73F87 /* PTKDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA760C34182C2C0900B73F87 /* PTKDetailTests.m */; };
-		DAA6C296182ADE6C0059C102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C295182ADE6C0059C102 /* Foundation.framework */; };
-		DAA6C298182ADE6C0059C102 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C297182ADE6C0059C102 /* CoreGraphics.framework */; };
-		DAA6C29A182ADE6C0059C102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C299182ADE6C0059C102 /* UIKit.framework */; };
-		DAA6C2A0182ADE6C0059C102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA6C29E182ADE6C0059C102 /* InfoPlist.strings */; };
-		DAA6C2A2182ADE6C0059C102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6C2A1182ADE6C0059C102 /* main.m */; };
-		DAA6C2A6182ADE6C0059C102 /* PTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6C2A5182ADE6C0059C102 /* PTKAppDelegate.m */; };
-		DAA6C2A9182ADE6C0059C102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA6C2A7182ADE6C0059C102 /* Main.storyboard */; };
-		DAA6C2AC182ADE6C0059C102 /* PTKMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6C2AB182ADE6C0059C102 /* PTKMasterViewController.m */; };
-		DAA6C2AF182ADE6C0059C102 /* PTKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6C2AE182ADE6C0059C102 /* PTKDetailViewController.m */; };
-		DAA6C2B1182ADE6C0059C102 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6C2B0182ADE6C0059C102 /* Images.xcassets */; };
-		DAA6C2B8182ADE6C0059C102 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C2B7182ADE6C0059C102 /* XCTest.framework */; };
-		DAA6C2B9182ADE6C0059C102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C295182ADE6C0059C102 /* Foundation.framework */; };
-		DAA6C2BA182ADE6C0059C102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA6C299182ADE6C0059C102 /* UIKit.framework */; };
-		DAA6C2C2182ADE6C0059C102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA6C2C0182ADE6C0059C102 /* InfoPlist.strings */; };
+		DAF90936182D8419003E273E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF90935182D8419003E273E /* Foundation.framework */; };
+		DAF9093B182D8419003E273E /* PTKTestKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAF9093A182D8419003E273E /* PTKTestKit.h */; };
+		DAF90944182D8419003E273E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF90943182D8419003E273E /* XCTest.framework */; };
+		DAF90945182D8419003E273E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF90935182D8419003E273E /* Foundation.framework */; };
+		DAF90947182D8419003E273E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF90946182D8419003E273E /* UIKit.framework */; };
+		DAF90950182D8419003E273E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAF9094E182D8419003E273E /* InfoPlist.strings */; };
+		DAF90952182D8419003E273E /* PTKTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF90951182D8419003E273E /* PTKTestKitTests.m */; };
+		DAF9095C182D8672003E273E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF9095B182D8672003E273E /* SenTestingKit.framework */; };
+		DAF90961182D873D003E273E /* PTKOutlineExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF9095E182D873D003E273E /* PTKOutlineExample.m */; };
+		DAF90962182D873D003E273E /* PTKTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF90960182D873D003E273E /* PTKTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DA760C26182C174E00B73F87 /* PBXContainerItemProxy */ = {
+		DAF90948182D8419003E273E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAA6C28A182ADE6C0059C102 /* Project object */;
+			containerPortal = DAF9092A182D8419003E273E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAA6C291182ADE6C0059C102;
-			remoteInfo = PTKTestKit;
-		};
-		DAA6C2BB182ADE6C0059C102 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DAA6C28A182ADE6C0059C102 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DAA6C291182ADE6C0059C102;
+			remoteGlobalIDString = DAF90931182D8419003E273E;
 			remoteInfo = PTKTestKit;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DAF90930182D8419003E273E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DAF9093B182D8419003E273E /* PTKTestKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		48A86777BB724981B9ABED55 /* Pods-ocunitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocunitTests.xcconfig"; path = "Pods/Pods-ocunitTests.xcconfig"; sourceTree = "<group>"; };
-		D236E060741E4278A6E9D2DA /* libPods-ocunitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocunitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA760C18182C174E00B73F87 /* PTKTestKitOCUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTKTestKitOCUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA760C19182C174E00B73F87 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DA760C1F182C174E00B73F87 /* PTKTestKitOCUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTKTestKitOCUnitTests-Info.plist"; sourceTree = "<group>"; };
-		DA760C21182C174E00B73F87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DA760C25182C174E00B73F87 /* PTKTestKitOCUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTKTestKitOCUnitTests-Prefix.pch"; sourceTree = "<group>"; };
-		DA760C2B182C189700B73F87 /* PTKTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTestCase.h; sourceTree = "<group>"; };
-		DA760C2C182C189700B73F87 /* PTKTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTestCase.m; sourceTree = "<group>"; };
-		DA760C2E182C18D800B73F87 /* sample-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sample-data.json"; sourceTree = "<group>"; };
-		DA760C30182C262300B73F87 /* PTKOutlineExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKOutlineExample.h; sourceTree = "<group>"; };
-		DA760C31182C262300B73F87 /* PTKOutlineExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKOutlineExample.m; sourceTree = "<group>"; };
-		DA760C33182C2C0900B73F87 /* PTKDetailTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKDetailTests.h; sourceTree = "<group>"; };
-		DA760C34182C2C0900B73F87 /* PTKDetailTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKDetailTests.m; sourceTree = "<group>"; };
-		DAA6C292182ADE6C0059C102 /* PTKTestKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTKTestKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA6C295182ADE6C0059C102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DAA6C297182ADE6C0059C102 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DAA6C299182ADE6C0059C102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DAA6C29D182ADE6C0059C102 /* PTKTestKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTKTestKit-Info.plist"; sourceTree = "<group>"; };
-		DAA6C29F182ADE6C0059C102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DAA6C2A1182ADE6C0059C102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DAA6C2A3182ADE6C0059C102 /* PTKTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTKTestKit-Prefix.pch"; sourceTree = "<group>"; };
-		DAA6C2A4182ADE6C0059C102 /* PTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKAppDelegate.h; sourceTree = "<group>"; };
-		DAA6C2A5182ADE6C0059C102 /* PTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKAppDelegate.m; sourceTree = "<group>"; };
-		DAA6C2A8182ADE6C0059C102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAA6C2AA182ADE6C0059C102 /* PTKMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKMasterViewController.h; sourceTree = "<group>"; };
-		DAA6C2AB182ADE6C0059C102 /* PTKMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKMasterViewController.m; sourceTree = "<group>"; };
-		DAA6C2AD182ADE6C0059C102 /* PTKDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKDetailViewController.h; sourceTree = "<group>"; };
-		DAA6C2AE182ADE6C0059C102 /* PTKDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKDetailViewController.m; sourceTree = "<group>"; };
-		DAA6C2B0182ADE6C0059C102 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DAA6C2B6182ADE6C0059C102 /* PTKTestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTKTestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA6C2B7182ADE6C0059C102 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DAA6C2BF182ADE6C0059C102 /* PTKTestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTKTestKitTests-Info.plist"; sourceTree = "<group>"; };
-		DAA6C2C1182ADE6C0059C102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAF90932182D8419003E273E /* libPTKTestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPTKTestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF90935182D8419003E273E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAF90939182D8419003E273E /* PTKTestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTKTestKit-Prefix.pch"; sourceTree = "<group>"; };
+		DAF9093A182D8419003E273E /* PTKTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTKTestKit.h; sourceTree = "<group>"; };
+		DAF90942182D8419003E273E /* PTKTestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTKTestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF90943182D8419003E273E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DAF90946182D8419003E273E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAF9094D182D8419003E273E /* PTKTestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTKTestKitTests-Info.plist"; sourceTree = "<group>"; };
+		DAF9094F182D8419003E273E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAF90951182D8419003E273E /* PTKTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTKTestKitTests.m; sourceTree = "<group>"; };
+		DAF9095B182D8672003E273E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAF9095D182D873D003E273E /* PTKOutlineExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKOutlineExample.h; sourceTree = "<group>"; };
+		DAF9095E182D873D003E273E /* PTKOutlineExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKOutlineExample.m; sourceTree = "<group>"; };
+		DAF9095F182D873D003E273E /* PTKTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTestCase.h; sourceTree = "<group>"; };
+		DAF90960182D873D003E273E /* PTKTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA760C15182C174E00B73F87 /* Frameworks */ = {
+		DAF9092F182D8419003E273E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA760C1A182C174E00B73F87 /* SenTestingKit.framework in Frameworks */,
-				DA760C1C182C174E00B73F87 /* UIKit.framework in Frameworks */,
-				DA760C1B182C174E00B73F87 /* Foundation.framework in Frameworks */,
-				B927E09FD1824500A043E368 /* libPods-ocunitTests.a in Frameworks */,
+				DAF9095C182D8672003E273E /* SenTestingKit.framework in Frameworks */,
+				DAF90936182D8419003E273E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAA6C28F182ADE6C0059C102 /* Frameworks */ = {
+		DAF9093F182D8419003E273E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA6C298182ADE6C0059C102 /* CoreGraphics.framework in Frameworks */,
-				DAA6C29A182ADE6C0059C102 /* UIKit.framework in Frameworks */,
-				DAA6C296182ADE6C0059C102 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA6C2B3182ADE6C0059C102 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA6C2B8182ADE6C0059C102 /* XCTest.framework in Frameworks */,
-				DAA6C2BA182ADE6C0059C102 /* UIKit.framework in Frameworks */,
-				DAA6C2B9182ADE6C0059C102 /* Foundation.framework in Frameworks */,
+				DAF90944182D8419003E273E /* XCTest.framework in Frameworks */,
+				DAF90947182D8419003E273E /* UIKit.framework in Frameworks */,
+				DAF90945182D8419003E273E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA760C1D182C174E00B73F87 /* PTKTestKitOCUnitTests */ = {
+		DAF90929182D8419003E273E = {
 			isa = PBXGroup;
 			children = (
-				DA760C1E182C174E00B73F87 /* Supporting Files */,
-				DA760C2B182C189700B73F87 /* PTKTestCase.h */,
-				DA760C2C182C189700B73F87 /* PTKTestCase.m */,
-				DA760C30182C262300B73F87 /* PTKOutlineExample.h */,
-				DA760C31182C262300B73F87 /* PTKOutlineExample.m */,
-				DA760C33182C2C0900B73F87 /* PTKDetailTests.h */,
-				DA760C34182C2C0900B73F87 /* PTKDetailTests.m */,
-			);
-			path = PTKTestKitOCUnitTests;
-			sourceTree = "<group>";
-		};
-		DA760C1E182C174E00B73F87 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA760C1F182C174E00B73F87 /* PTKTestKitOCUnitTests-Info.plist */,
-				DA760C20182C174E00B73F87 /* InfoPlist.strings */,
-				DA760C25182C174E00B73F87 /* PTKTestKitOCUnitTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DAA6C289182ADE6C0059C102 = {
-			isa = PBXGroup;
-			children = (
-				DAA6C29B182ADE6C0059C102 /* PTKTestKit */,
-				DAA6C2BD182ADE6C0059C102 /* PTKTestKitTests */,
-				DA760C1D182C174E00B73F87 /* PTKTestKitOCUnitTests */,
-				DAA6C294182ADE6C0059C102 /* Frameworks */,
-				DAA6C293182ADE6C0059C102 /* Products */,
-				48A86777BB724981B9ABED55 /* Pods-ocunitTests.xcconfig */,
+				DAF90937182D8419003E273E /* PTKTestKit */,
+				DAF9094B182D8419003E273E /* PTKTestKitTests */,
+				DAF90934182D8419003E273E /* Frameworks */,
+				DAF90933182D8419003E273E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DAA6C293182ADE6C0059C102 /* Products */ = {
+		DAF90933182D8419003E273E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C292182ADE6C0059C102 /* PTKTestKit.app */,
-				DAA6C2B6182ADE6C0059C102 /* PTKTestKitTests.xctest */,
-				DA760C18182C174E00B73F87 /* PTKTestKitOCUnitTests.octest */,
+				DAF90932182D8419003E273E /* libPTKTestKit.a */,
+				DAF90942182D8419003E273E /* PTKTestKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAA6C294182ADE6C0059C102 /* Frameworks */ = {
+		DAF90934182D8419003E273E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C295182ADE6C0059C102 /* Foundation.framework */,
-				DAA6C297182ADE6C0059C102 /* CoreGraphics.framework */,
-				DAA6C299182ADE6C0059C102 /* UIKit.framework */,
-				DAA6C2B7182ADE6C0059C102 /* XCTest.framework */,
-				DA760C19182C174E00B73F87 /* SenTestingKit.framework */,
-				D236E060741E4278A6E9D2DA /* libPods-ocunitTests.a */,
+				DAF9095B182D8672003E273E /* SenTestingKit.framework */,
+				DAF90935182D8419003E273E /* Foundation.framework */,
+				DAF90943182D8419003E273E /* XCTest.framework */,
+				DAF90946182D8419003E273E /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DAA6C29B182ADE6C0059C102 /* PTKTestKit */ = {
+		DAF90937182D8419003E273E /* PTKTestKit */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C2A4182ADE6C0059C102 /* PTKAppDelegate.h */,
-				DAA6C2A5182ADE6C0059C102 /* PTKAppDelegate.m */,
-				DAA6C2A7182ADE6C0059C102 /* Main.storyboard */,
-				DAA6C2AA182ADE6C0059C102 /* PTKMasterViewController.h */,
-				DAA6C2AB182ADE6C0059C102 /* PTKMasterViewController.m */,
-				DAA6C2AD182ADE6C0059C102 /* PTKDetailViewController.h */,
-				DAA6C2AE182ADE6C0059C102 /* PTKDetailViewController.m */,
-				DAA6C2B0182ADE6C0059C102 /* Images.xcassets */,
-				DAA6C29C182ADE6C0059C102 /* Supporting Files */,
+				DAF9095D182D873D003E273E /* PTKOutlineExample.h */,
+				DAF9095E182D873D003E273E /* PTKOutlineExample.m */,
+				DAF9095F182D873D003E273E /* PTKTestCase.h */,
+				DAF90960182D873D003E273E /* PTKTestCase.m */,
+				DAF9093A182D8419003E273E /* PTKTestKit.h */,
+				DAF90938182D8419003E273E /* Supporting Files */,
 			);
 			path = PTKTestKit;
 			sourceTree = "<group>";
 		};
-		DAA6C29C182ADE6C0059C102 /* Supporting Files */ = {
+		DAF90938182D8419003E273E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C29D182ADE6C0059C102 /* PTKTestKit-Info.plist */,
-				DAA6C29E182ADE6C0059C102 /* InfoPlist.strings */,
-				DAA6C2A1182ADE6C0059C102 /* main.m */,
-				DAA6C2A3182ADE6C0059C102 /* PTKTestKit-Prefix.pch */,
-				DA760C2E182C18D800B73F87 /* sample-data.json */,
+				DAF90939182D8419003E273E /* PTKTestKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DAA6C2BD182ADE6C0059C102 /* PTKTestKitTests */ = {
+		DAF9094B182D8419003E273E /* PTKTestKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C2BE182ADE6C0059C102 /* Supporting Files */,
+				DAF90951182D8419003E273E /* PTKTestKitTests.m */,
+				DAF9094C182D8419003E273E /* Supporting Files */,
 			);
 			path = PTKTestKitTests;
 			sourceTree = "<group>";
 		};
-		DAA6C2BE182ADE6C0059C102 /* Supporting Files */ = {
+		DAF9094C182D8419003E273E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DAA6C2BF182ADE6C0059C102 /* PTKTestKitTests-Info.plist */,
-				DAA6C2C0182ADE6C0059C102 /* InfoPlist.strings */,
+				DAF9094D182D8419003E273E /* PTKTestKitTests-Info.plist */,
+				DAF9094E182D8419003E273E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,33 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA760C17182C174E00B73F87 /* PTKTestKitOCUnitTests */ = {
+		DAF90931182D8419003E273E /* PTKTestKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA760C2A182C174E00B73F87 /* Build configuration list for PBXNativeTarget "PTKTestKitOCUnitTests" */;
+			buildConfigurationList = DAF90955182D8419003E273E /* Build configuration list for PBXNativeTarget "PTKTestKit" */;
 			buildPhases = (
-				1CC9C5F5D0EF40A3B98947F8 /* Check Pods Manifest.lock */,
-				DA760C14182C174E00B73F87 /* Sources */,
-				DA760C15182C174E00B73F87 /* Frameworks */,
-				DA760C16182C174E00B73F87 /* Resources */,
-				497E50D5DA34496B969A44A2 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA760C27182C174E00B73F87 /* PBXTargetDependency */,
-			);
-			name = PTKTestKitOCUnitTests;
-			productName = PTKTestKitOCUnitTests;
-			productReference = DA760C18182C174E00B73F87 /* PTKTestKitOCUnitTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
-		DAA6C291182ADE6C0059C102 /* PTKTestKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DAA6C2C7182ADE6C0059C102 /* Build configuration list for PBXNativeTarget "PTKTestKit" */;
-			buildPhases = (
-				DAA6C28E182ADE6C0059C102 /* Sources */,
-				DAA6C28F182ADE6C0059C102 /* Frameworks */,
-				DAA6C290182ADE6C0059C102 /* Resources */,
+				DAF9092E182D8419003E273E /* Sources */,
+				DAF9092F182D8419003E273E /* Frameworks */,
+				DAF90930182D8419003E273E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -262,201 +169,98 @@
 			);
 			name = PTKTestKit;
 			productName = PTKTestKit;
-			productReference = DAA6C292182ADE6C0059C102 /* PTKTestKit.app */;
-			productType = "com.apple.product-type.application";
+			productReference = DAF90932182D8419003E273E /* libPTKTestKit.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		DAA6C2B5182ADE6C0059C102 /* PTKTestKitTests */ = {
+		DAF90941182D8419003E273E /* PTKTestKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAA6C2CA182ADE6C0059C102 /* Build configuration list for PBXNativeTarget "PTKTestKitTests" */;
+			buildConfigurationList = DAF90958182D8419003E273E /* Build configuration list for PBXNativeTarget "PTKTestKitTests" */;
 			buildPhases = (
-				DAA6C2B2182ADE6C0059C102 /* Sources */,
-				DAA6C2B3182ADE6C0059C102 /* Frameworks */,
-				DAA6C2B4182ADE6C0059C102 /* Resources */,
+				DAF9093E182D8419003E273E /* Sources */,
+				DAF9093F182D8419003E273E /* Frameworks */,
+				DAF90940182D8419003E273E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAA6C2BC182ADE6C0059C102 /* PBXTargetDependency */,
+				DAF90949182D8419003E273E /* PBXTargetDependency */,
 			);
 			name = PTKTestKitTests;
 			productName = PTKTestKitTests;
-			productReference = DAA6C2B6182ADE6C0059C102 /* PTKTestKitTests.xctest */;
+			productReference = DAF90942182D8419003E273E /* PTKTestKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAA6C28A182ADE6C0059C102 /* Project object */ = {
+		DAF9092A182D8419003E273E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = PTK;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Paul Pilone";
-				TargetAttributes = {
-					DA760C17182C174E00B73F87 = {
-						TestTargetID = DAA6C291182ADE6C0059C102;
-					};
-					DAA6C2B5182ADE6C0059C102 = {
-						TestTargetID = DAA6C291182ADE6C0059C102;
-					};
-				};
+				ORGANIZATIONNAME = "Element 84, LLC";
 			};
-			buildConfigurationList = DAA6C28D182ADE6C0059C102 /* Build configuration list for PBXProject "PTKTestKit" */;
+			buildConfigurationList = DAF9092D182D8419003E273E /* Build configuration list for PBXProject "PTKTestKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = DAA6C289182ADE6C0059C102;
-			productRefGroup = DAA6C293182ADE6C0059C102 /* Products */;
+			mainGroup = DAF90929182D8419003E273E;
+			productRefGroup = DAF90933182D8419003E273E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAA6C291182ADE6C0059C102 /* PTKTestKit */,
-				DAA6C2B5182ADE6C0059C102 /* PTKTestKitTests */,
-				DA760C17182C174E00B73F87 /* PTKTestKitOCUnitTests */,
+				DAF90931182D8419003E273E /* PTKTestKit */,
+				DAF90941182D8419003E273E /* PTKTestKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA760C16182C174E00B73F87 /* Resources */ = {
+		DAF90940182D8419003E273E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA760C22182C174E00B73F87 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA6C290182ADE6C0059C102 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA6C2B1182ADE6C0059C102 /* Images.xcassets in Resources */,
-				DA760C2F182C18D800B73F87 /* sample-data.json in Resources */,
-				DAA6C2A0182ADE6C0059C102 /* InfoPlist.strings in Resources */,
-				DAA6C2A9182ADE6C0059C102 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA6C2B4182ADE6C0059C102 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAA6C2C2182ADE6C0059C102 /* InfoPlist.strings in Resources */,
+				DAF90950182D8419003E273E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1CC9C5F5D0EF40A3B98947F8 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		497E50D5DA34496B969A44A2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-ocunitTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		DA760C14182C174E00B73F87 /* Sources */ = {
+		DAF9092E182D8419003E273E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA760C2D182C189700B73F87 /* PTKTestCase.m in Sources */,
-				DA760C32182C262300B73F87 /* PTKOutlineExample.m in Sources */,
-				DA760C35182C2C0900B73F87 /* PTKDetailTests.m in Sources */,
+				DAF90962182D873D003E273E /* PTKTestCase.m in Sources */,
+				DAF90961182D873D003E273E /* PTKOutlineExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAA6C28E182ADE6C0059C102 /* Sources */ = {
+		DAF9093E182D8419003E273E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA6C2A6182ADE6C0059C102 /* PTKAppDelegate.m in Sources */,
-				DAA6C2AF182ADE6C0059C102 /* PTKDetailViewController.m in Sources */,
-				DAA6C2AC182ADE6C0059C102 /* PTKMasterViewController.m in Sources */,
-				DAA6C2A2182ADE6C0059C102 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DAA6C2B2182ADE6C0059C102 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DAF90952182D8419003E273E /* PTKTestKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA760C27182C174E00B73F87 /* PBXTargetDependency */ = {
+		DAF90949182D8419003E273E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAA6C291182ADE6C0059C102 /* PTKTestKit */;
-			targetProxy = DA760C26182C174E00B73F87 /* PBXContainerItemProxy */;
-		};
-		DAA6C2BC182ADE6C0059C102 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DAA6C291182ADE6C0059C102 /* PTKTestKit */;
-			targetProxy = DAA6C2BB182ADE6C0059C102 /* PBXContainerItemProxy */;
+			target = DAF90931182D8419003E273E /* PTKTestKit */;
+			targetProxy = DAF90948182D8419003E273E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA760C20182C174E00B73F87 /* InfoPlist.strings */ = {
+		DAF9094E182D8419003E273E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA760C21182C174E00B73F87 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DAA6C29E182ADE6C0059C102 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA6C29F182ADE6C0059C102 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DAA6C2A7182ADE6C0059C102 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA6C2A8182ADE6C0059C102 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DAA6C2C0182ADE6C0059C102 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAA6C2C1182ADE6C0059C102 /* en */,
+				DAF9094F182D8419003E273E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -464,51 +268,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA760C28182C174E00B73F87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A86777BB724981B9ABED55 /* Pods-ocunitTests.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTKTestKit.app/PTKTestKit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTKTestKitOCUnitTests/PTKTestKitOCUnitTests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PTKTestKitOCUnitTests/PTKTestKitOCUnitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		DA760C29182C174E00B73F87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A86777BB724981B9ABED55 /* Pods-ocunitTests.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTKTestKit.app/PTKTestKit";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTKTestKitOCUnitTests/PTKTestKitOCUnitTests-Prefix.pch";
-				INFOPLIST_FILE = "PTKTestKitOCUnitTests/PTKTestKitOCUnitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
-		DAA6C2C5182ADE6C0059C102 /* Debug */ = {
+		DAF90953182D8419003E273E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +285,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -547,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		DAA6C2C6182ADE6C0059C102 /* Release */ = {
+		DAF90954182D8419003E273E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -564,7 +323,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -580,37 +338,42 @@
 			};
 			name = Release;
 		};
-		DAA6C2C8182ADE6C0059C102 /* Debug */ = {
+		DAF90956182D8419003E273E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/PTKTestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTKTestKit/PTKTestKit-Prefix.pch";
-				INFOPLIST_FILE = "PTKTestKit/PTKTestKit-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		DAA6C2C9182ADE6C0059C102 /* Release */ = {
+		DAF90957182D8419003E273E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DSTROOT = /tmp/PTKTestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTKTestKit/PTKTestKit-Prefix.pch";
-				INFOPLIST_FILE = "PTKTestKit/PTKTestKit-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		DAA6C2CB182ADE6C0059C102 /* Debug */ = {
+		DAF90959182D8419003E273E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTKTestKit.app/PTKTestKit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -624,16 +387,14 @@
 				);
 				INFOPLIST_FILE = "PTKTestKitTests/PTKTestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		DAA6C2CC182ADE6C0059C102 /* Release */ = {
+		DAF9095A182D8419003E273E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTKTestKit.app/PTKTestKit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -643,7 +404,6 @@
 				GCC_PREFIX_HEADER = "PTKTestKit/PTKTestKit-Prefix.pch";
 				INFOPLIST_FILE = "PTKTestKitTests/PTKTestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -651,43 +411,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA760C2A182C174E00B73F87 /* Build configuration list for PBXNativeTarget "PTKTestKitOCUnitTests" */ = {
+		DAF9092D182D8419003E273E /* Build configuration list for PBXProject "PTKTestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA760C28182C174E00B73F87 /* Debug */,
-				DA760C29182C174E00B73F87 /* Release */,
+				DAF90953182D8419003E273E /* Debug */,
+				DAF90954182D8419003E273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAA6C28D182ADE6C0059C102 /* Build configuration list for PBXProject "PTKTestKit" */ = {
+		DAF90955182D8419003E273E /* Build configuration list for PBXNativeTarget "PTKTestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAA6C2C5182ADE6C0059C102 /* Debug */,
-				DAA6C2C6182ADE6C0059C102 /* Release */,
+				DAF90956182D8419003E273E /* Debug */,
+				DAF90957182D8419003E273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAA6C2C7182ADE6C0059C102 /* Build configuration list for PBXNativeTarget "PTKTestKit" */ = {
+		DAF90958182D8419003E273E /* Build configuration list for PBXNativeTarget "PTKTestKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAA6C2C8182ADE6C0059C102 /* Debug */,
-				DAA6C2C9182ADE6C0059C102 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DAA6C2CA182ADE6C0059C102 /* Build configuration list for PBXNativeTarget "PTKTestKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAA6C2CB182ADE6C0059C102 /* Debug */,
-				DAA6C2CC182ADE6C0059C102 /* Release */,
+				DAF90959182D8419003E273E /* Debug */,
+				DAF9095A182D8419003E273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAA6C28A182ADE6C0059C102 /* Project object */;
+	rootObject = DAF9092A182D8419003E273E /* Project object */;
 }
