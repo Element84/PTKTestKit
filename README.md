@@ -14,8 +14,8 @@ prefixed with `outlineTest` will be executed for each example vended by your sub
 
 ## Installation
 
-The preferred way to install PTKTestKit will, eventually, be via the [CocoaPods](http://cocoapods.org) package manager. At the current commit the only way to install PTKTestKit is to 
-clone the repository and copy source files into as needed into your project. When copying files into your project or workspace, make sure to add them to your test targets.
+The preferred way to install PTKTestKit will, eventually, be via the [CocoaPods](http://cocoapods.org) package manager. There exists a podspec that works but it has not been added to the Cocoapods master spec repo
+yet. When copying files into your project or workspace, make sure to add them to your test targets.
 
 ## Example
 
@@ -98,8 +98,6 @@ Since outline test names are dynamically generated, there is no suppport for run
 
 ## TODO
 
-- [ ] Clean up repository (examples mixed in with source code)
-- [ ] Create Podspec
 - [ ] Provide better inline documentation
 - [ ] Dynamically extend XCTestKit
 - [ ] Add support for enabling/disabling examples in PTKTestCase
