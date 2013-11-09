@@ -107,8 +107,6 @@ Since outline test names are dynamically generated, there is no suppport for run
 
 ## TODO
 
-- [ ] Clean up repository (examples mixed in with source code)
-- [ ] Create Podspec
 - [ ] Provide better inline documentation
 - [ ] Dynamically extend XCTestKit
 - [ ] Add support for enabling/disabling examples in PTKTestCase
