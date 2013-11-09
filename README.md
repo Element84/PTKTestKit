@@ -14,8 +14,17 @@ prefixed with `outlineTest` will be executed for each example vended by your sub
 
 ## Installation
 
-The preferred way to install PTKTestKit will, eventually, be via the [CocoaPods](http://cocoapods.org) package manager. At the current commit the only way to install PTKTestKit is to 
-clone the repository and copy source files into as needed into your project. When copying files into your project or workspace, make sure to add them to your test targets.
+The preferred way to install PTKTestKit is via the [CocoaPods](http://cocoapods.org) package manager. Since PTKTestKit is a testing framework, make sure to link it against your test target in Podfile
+
+``` ruby
+target :tests, :exclusive => true do
+    pod 'PTKTestKit', '~> 1.0'
+end
+```
+
+After running `pod install` you should be ready to go.
+
+If you're not using Cocoapods to manage dependencies (but you really should be) you can clone the repository from Github and copy files in the PTKTestKit directory as needed into your project or workspace. When copying files into your project or workspace, make sure to add them to your test targets.
 
 ## Example
 
